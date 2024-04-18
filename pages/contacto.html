@@ -43,7 +43,12 @@
         </nav>
     </header>
     <main>
-        <h2>Titulo</h2>
+        <div class="img-cont">
+            <img src="../img/portada-general.jpg" alt="portada general">
+            <div class="text-sobre-img">
+                <h2>CONTACTO</h2>
+            </div>
+        </div>    
         <form action="form.php" method="post">
             <label for="nombre"></label>
             <input type="text" name="nombre" id="nombre" placeholder="Nombre y Apellido">
@@ -62,18 +67,24 @@
 
             <input type="submit" value="Enviar Mensaje">
         </form>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d700.792241853791!2d-78.50241469699921!3d-0.15176929110519152!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91d59b56cc2a7613%3A0x5ceb7a5c9da8046a!2sConjunto%20Pinar%20Alto!5e0!3m2!1ses!2sar!4v1710368547452!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="mapa">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d700.792241853791!2d-78.50241469699921!3d-0.15176929110519152!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91d59b56cc2a7613%3A0x5ceb7a5c9da8046a!2sConjunto%20Pinar%20Alto!5e0!3m2!1ses!2sar!4v1710368547452!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        
     </main>
     <section>
-        <h3>Contacto</h3>
-        <ul class="datos-contacto">
-            <li>Calle F 4805 (120) y Av. Manuel Valdivieso</li>
-            <li>Torre Pinar Alto 203B</li>
-            <li>contablidad@ascatra.com</li>
-            <li>+593 998786298</li>
-            <li>+593 994129258</li>
-            <li>Lunes a Viernes 8:00 - 17:00</li>
-        </ul>
+        <div>
+            <h3>Contacto</h3>
+            <ul class="lista-contacto">
+               <li>Calle F 4805 (120) y Av. Manuel Valdivieso</li>
+               <li>Torre Pinar Alto 203B</li>
+               <li>contablidad@ascatra.com</li>
+               <li>+593 998786298</li>
+               <li>+593 994129258</li>
+               <li>Lunes a Viernes 8:00 - 17:00</li>
+            </ul>  
+        </div>
+        
    </section>
    <footer>
         <p class="footer">Todos los Derechos Reservados 2024</p>
